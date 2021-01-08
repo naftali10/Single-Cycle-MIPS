@@ -1,5 +1,5 @@
 # Single-Cycle MIPS
-A System Verilog processor design of a single cycle MIPS architecture. 
+A System Verilog processor design of a single cycle MIPS architecture.   
 Available for running at:
 https://www.edaplayground.com/x/5Eje  
 ___
@@ -7,7 +7,7 @@ ___
 ![alt text](https://github.com/naftali10/Single-Cycle_MIPS/blob/main/SIngle%20Cycle%20MIPS%20Diagram.png "Processor's diagram")
 ## Architecture and micro-architecture data:  
 • Supports 32 bit standard MIPS instructions  
-• Has 32 data registers of 32 bits 
+• Has 32 data registers of 32 bits  
 • Has data memory of 256 bytes
   
 R-type instructions (add, sub, set less than, jump register) structure:
