@@ -5,13 +5,17 @@ https://www.edaplayground.com/x/5Eje
 ___
   
 ![alt text](https://github.com/naftali10/Single-Cycle_MIPS/blob/main/SIngle%20Cycle%20MIPS%20Diagram.png "Processor's diagram")
-## Architecture data:  
-R-type instrictions (add, sub, set less than, jump register) structure:
+## Architecture and micro-architecture data:  
+• Supports 32 bit standard MIPS instructions  
+• Has 32 data registers of 32 bits 
+• Has data memory of 256 bytes
+  
+R-type instructions (add, sub, set less than, jump register) structure:
 | Op |	rs |	rt |	rd |	shamt |	funct |
 | - | - | - | - | - | - |
 | 6 bits	| 5 bits | 5 bits |	5 bits | 5 bits |	6 bits |
 
-I-type (load word, store word, branch not equal, branch equal, add immediate, load upper immediate) structure:
+I-type instructions (load word, store word, branch not equal, branch equal, add immediate, load upper immediate) structure:
 | Op	| rs	| rt	| Immediate value / address offset (in 2's complement) |
 | - | - | - | - |
 | 6 bits |	5 bits |	5 bits |	16 bits |
